@@ -11,13 +11,13 @@ Download the Confluent Operator from https://docs.confluent.io/operator/current/
 Untar/unzip the file
 
 
-Move the values.yaml file to the helm folder in the uncompressed folder
+Move the values.yaml file to the **helm** folder in the uncompressed folder
 
 
-Move the deploy-cp-operator.sh to the helm folder in the uncompressed folder
+Move the deploy-cp-operator.sh to the **helm** folder in the uncompressed folder
 
 
-Move the undeploy-cp-operator.sh to the helm folder in the uncompressed folder
+Move the undeploy-cp-operator.sh to the **helm** folder in the uncompressed folder
 
 
 To deploy: deploy-cp-operator.sh
@@ -25,4 +25,4 @@ To deploy: deploy-cp-operator.sh
 
 To Undeploy: deploy-cp-operator.sh
 
-Note: Modify values.yaml file to deploy more than one instance of Zookeeper/Kafka/KsqlDB/Connect/Control Center/Schema Registry
+**Note:** Modify values.yaml file to deploy more than one instance of Zookeeper/Kafka/KsqlDB/Connect/Control Center/Schema Registry
