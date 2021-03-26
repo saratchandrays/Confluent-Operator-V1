@@ -24,3 +24,5 @@ To deploy: deploy-cp-operator.sh
 
 
 To Undeploy: deploy-cp-operator.sh
+
+Note: Modify values.yaml file to deploy more than one instance of Zookeeper/Kafka/KsqlDB/Connect/Control Center/Schema Registry
